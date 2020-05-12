@@ -15,5 +15,6 @@ def getmode(numbers):
 def meanmedianmode(numbers):
   mmm_dict = {'mean':getmean(numbers) , 'mode':getmode(numbers) , 'median':getmedian(numbers)}
   return mmm_dict
+  
 numbers = [1,3,10,3,8,6,4,3,9,7,3,8]
 print("mean median mode" + str(meanmedianmode(numbers)))
