@@ -1,28 +1,21 @@
-# lambdata_misqual_z
 
-## Installation
 
-TODO
 
-## Usage
 
-TODO
 
-```py
-def getmean(numbers):
-  mean = sum(numbers) / len(numbers)
-  return mean
-def getmedian(numbers):
-  numbers.sort()
-  mid = len(numbers)//2
-  return(numbers[mid]+numbers[~mid]/2)
-def getmode(numbers):
-  mode = max(numbers , key = numbers.count)
-  return mode
-def meanmedianmode(numbers):
-  mmm_dict = {'mean':getmean(numbers) , 'mode':getmode(numbers) , 'median':getmedian(numbers)}
-  return mmm_dict
-numbers = [1,3,10,3,8,6,4,3,9,7,3,8]
-print("mean median mode" + str(meanmedianmode(numbers)))
-```
+# my_script.py:
 
+      In this file, you can find Mean, Median, Mode function
+      which you can use without using any library.
+
+# Assignment_1.py :
+
+     This file contains a function of 'split_dates_column'
+     which can be used to extract new columns from the existing column in a dataframe ("MM/DD/YYYY", etc.)  
+
+ # Assignment_2.py :
+
+        'add_new_col' function tells you if you have a list and you want to add this into a dataframe, how can you change this into Series
+        and then by using 'insert' make it a part of an already available dataframe.
+
+                 
