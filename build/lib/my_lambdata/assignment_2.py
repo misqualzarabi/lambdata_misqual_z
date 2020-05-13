@@ -15,7 +15,7 @@ def add_new_col(new_col):
 
      # using an insert function to add this into dataframe
 
-    df = df1.insert(loc=2, column='Class',value=column_values)
+    df1.insert(loc=2, column='Class',value=column_values)
  
 
     return new_col

@@ -1,6 +1,8 @@
 README.md
 setup.py
 my_lambdata/__init__.py
+my_lambdata/assignment_1.py
+my_lambdata/assignment_2.py
 my_lambdata/my_mode.py
 my_lambdata/my_script.py
 my_lambdata_zarabi.egg-info/PKG-INFO
