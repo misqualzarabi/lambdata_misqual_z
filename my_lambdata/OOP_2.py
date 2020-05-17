@@ -30,4 +30,7 @@ if __name__ == "__main__":
     list_data = AddList(df1)
     print(list_data.df1.head())
 
-    print(list_data.add_new_col())
+    list_data = list_data.add_new_col()
+    print(list_data.head())
+
+    
