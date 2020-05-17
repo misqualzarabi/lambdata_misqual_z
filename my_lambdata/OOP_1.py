@@ -29,8 +29,9 @@ if __name__ == "__main__":
     df = pd.DataFrame(
         {'date_time': ['2019-01-01', '2018-02-04', '2019-02-06', '2020-01-03']})
 
-    new_feature = NewFeature(df)
+    new_feature =   NewFeature(df)
     print(new_feature.df.head())
 
     # printing new dataframe addition to new columns along old ones
-    print(new_feature.split_dates_col())
+    new_feature = new_feature.split_dates_col()
+    print(new_feature.head())
